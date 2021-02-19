@@ -23,10 +23,10 @@ if(selectedNum < 1 || selectedNum > 100 || isNaN(selectedNum) === true) {
     // }
     
     // more concise code
-    if (selectedNum >= 90) console.log('You received an A')
-    else if (selectedNum >= 80) console.log('You received a B')
-    else if (selectedNum >= 70) console.log('You received a C')
-    else if (selectedNum >= 60) console.log('You received a D')
-    else console.log('You received an F')
+    if (selectedNum >= 90) document.write('You received an A')
+    else if (selectedNum >= 80) document.write('You received a B')
+    else if (selectedNum >= 70) document.write('You received a C')
+    else if (selectedNum >= 60) document.write('You received a D')
+    else document.write('You received an F')
 }
 
